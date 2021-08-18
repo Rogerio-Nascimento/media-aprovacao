@@ -37,7 +37,7 @@ input {
     width:240px;
     height:50px;
     border-width:1px;
-    color:#3a8a9e;
+    color:#2f474d;
     border-color:#d6bcd6;
     font-weight:bold;
     border-top-left-radius:15px;
@@ -51,19 +51,26 @@ input {
 
 }
 
-.input:hover {
+input:focus {
+  color: #050005;
+}
+
+input:hover {
     background: linear-gradient(#241b24, #ededed);
   }
-  .button{
-    font-size: 1000px;
 
-  } input#btn{
+  input#btn{
     color: rgb(133, 19, 133);
  
   }
 
   div#res{
     font-family: Arial, Helvetica, sans-serif;
-    color: tomato;
+    color: rgb(99, 71, 255);
+    font-size: large;
+    width: initial;
+    padding: auto;
+    font-size: 30px;
   }
   
+ 
